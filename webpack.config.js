@@ -21,7 +21,7 @@ module.exports = function makeWebpackConfig() {
         },
         output: {
             path: './dist',
-            filename: 'bundle.js'
+            filename: 'waschnick.js'
         },
         module: {
             preLoaders: [
@@ -29,8 +29,9 @@ module.exports = function makeWebpackConfig() {
             ],
             loaders: [
                 {test: /\.js$/, loader: 'babel', exclude: /node_modules/, query: {presets: ['es2015']}},
+                {test: /\.css$/, loader: "style-loader!css-loader?minimize"},
                 {test: /\.scss$/, loaders: ['style', 'css?sourceMap', 'sass?sourceMap']},
-                {test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/, loader: 'file?name=app/[path][name].[ext]?[hash]&context=./app/'},
+                {test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/, loader: 'file?name=[path][name].[ext]?[hash]&context=./app/'},
                 {
                     // TODO loader: 'html?attrs=script:src&img:src&root=/src'
                     test: /\.html$/, loader: 'file?name=[path][name].[ext]?[hash]&context=./app/'

@@ -1,48 +1,37 @@
 $primary-color: #E94127;
 $primary-color-blue: #123456;
 
+body {
+  font-family: "Georgia", serif;
+  font-size: 16px;
+  min-width: 300px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 html {
 }
 
-@font-face {
-  font-family: 'Mono Social Icons Font';
-  src: url('../font/MonoSocialIconsFont-1.10.eot');
-  src: url('../font/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
-  url('../font/MonoSocialIconsFont-1.10.woff') format('woff'),
-  url('../font/MonoSocialIconsFont-1.10.ttf') format('truetype'),
-  url('../font/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
-  src: url('../font/MonoSocialIconsFont-1.10.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+ol, ul {
+  list-style: none;
+  display: block;
 }
 
-.symbol, a.symbol:before {
-  font-family: 'Mono Social Icons Font';
-  -webkit-text-rendering: optimizeLegibility;
-  -moz-text-rendering: optimizeLegibility;
-  -ms-text-rendering: optimizeLegibility;
-  -o-text-rendering: optimizeLegibility;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -ms-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-}
+@import 'parts/font';
+@import 'parts/header';
+@import 'parts/intro';
 
-a.symbol:before {
-  content: attr(title);
-  margin-right: 0.3em;
-  font-size: 130%;
-}
-
-header {
-  height: 120px;
-  background-color: $primary-color;
+.site-footer {
   text-align: center;
+  color: #666;
+  padding: 2em 0;
+}
 
-  img {
-    height: 100%;
-    margin: auto;
-  }
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+.site-footer a {
+  color: #666;
+  text-decoration: none;
 }

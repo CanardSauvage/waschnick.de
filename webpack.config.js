@@ -1,7 +1,7 @@
 // Modules
 var webpack = require('webpack'),
     path = require('path'),
-//ExtractTextPlugin = require('extract-text-webpack-plugin'),
+    ExtractTextPlugin = require('extract-text-webpack-plugin'),
     CleanWebpackPlugin = require('clean-webpack-plugin');
 var ENV = process.env.npm_lifecycle_event;
 var isDev = ENV === 'watch';
@@ -29,8 +29,9 @@ module.exports = function makeWebpackConfig() {
             ],
             loaders: [
                 {test: /\.js$/, loader: 'babel', exclude: /node_modules/, query: {presets: ['es2015']}},
-                {test: /\.css$/, loader: "style-loader!css-loader?minimize"},
-                {test: /\.scss$/, loaders: ['style', 'css?sourceMap', 'sass?sourceMap']},
+                {test: /\.css$/, loader: ExtractTextPlugin.extract('style', 'css?sourceMap&minimize')},
+                {test: /\.scss$/, loader: ExtractTextPlugin.extract('style', 'css?sourceMap&minimize!sass?sourceMap')},
+
                 {test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/, loader: 'file?name=[path][name].[ext]?[hash]&context=./app/'},
                 {
                     // TODO loader: 'html?attrs=script:src&img:src&root=/src'
@@ -42,7 +43,7 @@ module.exports = function makeWebpackConfig() {
             historyApiFallback: true
         },
         plugins: [
-            //new ExtractTextPlugin('styles.css')
+            new ExtractTextPlugin('waschnick.css')
         ],
     };
 

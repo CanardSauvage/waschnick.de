@@ -17,6 +17,14 @@ ol, ul {
   display: block;
 }
 
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 @import 'parts/font';
 @import 'parts/header';
 @import 'parts/intro';

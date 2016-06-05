@@ -17,9 +17,25 @@
       //margin: 0 0.1em;
 
       a {
+        margin: 0.5em 0 0 0;
+        padding: 0;
+        border: 0;
+        vertical-align: baseline;
+
         text-decoration: none;
         font-size: 2em;
         color: $primary-color;
+        border-radius: 50%;
+        width: 52px;
+        height: 52px;
+        display: block;
+        transition: background, 0.25s;
+      }
+
+      a:hover {
+        background-color: $primary-color;
+        color: white;
+        text-decoration: underline;
       }
     }
   }

@@ -1,12 +1,11 @@
 // Modules
-var webpack = require('webpack'),
-    path = require('path'),
-    ExtractTextPlugin = require('extract-text-webpack-plugin'),
-    CleanWebpackPlugin = require('clean-webpack-plugin');
+var webpack = require('webpack');
+var path = require('path');
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var CleanWebpackPlugin = require('clean-webpack-plugin');
+var DashboardPlugin = require('webpack-dashboard/plugin');
+
 var ENV = process.env.npm_lifecycle_event;
-var isDev = ENV === 'watch';
-var isTest = ENV === 'test' || ENV === 'testw';
-var isMock = ENV === 'start';
 var isBuild = ENV === 'build';
 
 module.exports = function makeWebpackConfig() {
@@ -43,7 +42,8 @@ module.exports = function makeWebpackConfig() {
             historyApiFallback: true
         },
         plugins: [
-            new ExtractTextPlugin('waschnick.css')
+            new ExtractTextPlugin('waschnick.css'),
+            new DashboardPlugin()
         ],
     };
 

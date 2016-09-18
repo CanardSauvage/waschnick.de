@@ -16,7 +16,7 @@ module.exports = function makeWebpackConfig() {
         debug: true,
         entry: './app/app',
         resolve: {
-            extensions: ['', '.js', '.sass', '.html']
+            extensions: ['', '.js', '.md', '.sass', '.html']
         },
         output: {
             path: './dist',
@@ -35,7 +35,9 @@ module.exports = function makeWebpackConfig() {
                 {
                     // TODO loader: 'html?attrs=script:src&img:src&root=/src'
                     test: /\.html$/, loader: 'file?name=[path][name].[ext]?[hash]&context=./app/'
-                }
+                },
+                {test: /\.md$/, loader: 'html!markdown'},
+
             ]
         },
         devServer: {

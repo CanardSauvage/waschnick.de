@@ -7,10 +7,9 @@
     "url": "https://github.com/CanardSauvage/waschnick.de"
   },
   "scripts": {
-    "start": "webpack-dashboard -- webpack-dev-server --inline --watch",
+    "start": "webpack -- webpack-dev-server --inline --watch && hugo/hugo server -w",
     "build": "webpack && hugo/hugo",
-    "deploy": "node src/js/deploy.js",
-    "watch": "webpack -w"
+    "deploy": "node deploy.js"
   },
   "devDependencies": {
     "babel-core": "^6.2.1",

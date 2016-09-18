@@ -23,7 +23,7 @@ module.exports = function makeWebpackConfig() {
                 {test: /\.js$/, loader: 'babel', exclude: /node_modules/, query: {presets: ['es2015']}},
                 {test: /\.css$/, loader: ExtractTextPlugin.extract('style', 'css?sourceMap&minimize')},
                 {test: /\.scss$/, loader: ExtractTextPlugin.extract('style', 'css?sourceMap&minimize!sass?sourceMap')},
-                {test: /\.(svg|woff|woff2|ttf|eot)$/, loader: 'file?name=[path][name].[ext]?[hash]&context=./fonts/'},
+                {test: /\.(svg|woff|woff2|ttf|eot)$/, loader: 'file?name=[path][name].[ext]?[hash]&context=./build/'},
             ]
         },
         devServer: {

@@ -1,15 +1,15 @@
 var FtpDeploy = require('ftp-deploy');
 var ftpDeploy = new FtpDeploy();
 
-console.info("### Current branch is: " +  process.env.TRAVIS_BRANCH);
+console.info("### Current branch is: " + process.env.TRAVIS_BRANCH);
 
 var config = {
     username: process.env.FTP_USER,
     password: process.env.FTP_PASSWORD,
-    host: "ftp.mobility-hacks.de",
+    host: "ftp3.netclusive.de",
     port: 21,
-    localRoot: "./dist",
-    remoteRoot: "/",
+    localRoot: "./public",
+    remoteRoot: "/html/",
     exclude: ['.git', '.idea', 'tmp/*']
 };
 

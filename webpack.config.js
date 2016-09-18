@@ -21,15 +21,16 @@ module.exports = function makeWebpackConfig() {
             ],
             loaders: [
                 {test: /\.js$/, loader: 'babel', exclude: /node_modules/, query: {presets: ['es2015']}},
-                {test: /\.css$/, loader: cssExtractor.extract('style', 'css?sourceMap&minimize')},
-                {test: /\.scss$/, loader: cssExtractor.extract('style', 'css?sourceMap&minimize!sass?sourceMap')},
+                {test: /\.css$/, loader: ExtractTextPlugin.extract('style', 'css?sourceMap&minimize')},
+                {test: /\.scss$/, loader: ExtractTextPlugin.extract('style', 'css?sourceMap&minimize!sass?sourceMap')},
+                {test: /\.(svg|woff|woff2|ttf|eot)$/, loader: 'file?name=[path][name].[ext]?[hash]&context=./fonts/'},
             ]
         },
         devServer: {
             historyApiFallback: true
         },
         plugins: [
-            new CleanWebpackPlugin(['dist'], {verbose: true, dry: false}),
+            new CleanWebpackPlugin(['public'], {verbose: true, dry: false}),
             new ExtractTextPlugin("css/waschnick.css"),
             new webpack.optimize.UglifyJsPlugin()
         ],

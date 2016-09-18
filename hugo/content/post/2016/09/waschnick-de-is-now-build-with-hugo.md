@@ -1,6 +1,6 @@
 +++
 date = "2016-09-18T08:58:18+02:00"
-title = "waschnick.de now with Hugo"
+title = "waschnick.de is now build with Hugo"
 
 menu = "main"
 Tags = ["Development", "golang"]

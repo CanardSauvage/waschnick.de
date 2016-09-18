@@ -1,0 +1,17 @@
+    {{ partial "head.html" . }}
+
+    <body>
+        <div class="content-wrapper">
+            <div class="content-wrapper__inner">
+                <div class="post">
+                    <h1>{{ .Title }}</h1>
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+
+        {{ partial "sidebar.html" . }}
+    </body>
+
+    {{ partial "footer.html" .}}
+</html>

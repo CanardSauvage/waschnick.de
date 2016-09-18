@@ -7,10 +7,9 @@
     "url": "https://github.com/CanardSauvage/waschnick.de"
   },
   "scripts": {
-    "start": "webpack-dashboard -- webpack-dev-server --inline --watch",
-    "build": "webpack",
-    "deploy": "node src/js/deploy.js",
-    "watch": "webpack -w"
+    "start": "webpack -- webpack-dev-server --inline --watch && hugo/hugo server -w",
+    "build": "webpack && hugo/hugo",
+    "deploy": "node deploy.js"
   },
   "devDependencies": {
     "babel-core": "^6.2.1",
@@ -21,17 +20,12 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
     "ftp-deploy": "^1.1.0",
-    "html-loader": "^0.4.3",
-    "html-webpack-plugin": "^2.7.1",
-    "markdown-loader": "^0.1.7",
     "node-sass": "^3.4.2",
     "raw-loader": "^0.5.1",
     "sass-loader": "^3.2.0",
     "source-map-loader": "^0.1.5",
     "style-loader": "^0.13.0",
-    "webpack": "^1.12.14",
-    "webpack-dashboard": "^0.1.6",
-    "webpack-dev-server": "^1.14.1"
+    "webpack": "^1.12.14"
   },
   "dependencies": {}
 }

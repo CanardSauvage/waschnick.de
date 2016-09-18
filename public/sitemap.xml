@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://waschnick.de/</loc>
+    <lastmod>2016-09-18T08:58:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://waschnick.de/post/2016/07/42-hours-at-a-hackathon/</loc>
+    <lastmod>2016-09-18T08:58:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://waschnick.de/post/2016/09/waschnick-de-is-now-build-with-hugo/</loc>
+    <lastmod>2016-09-18T08:58:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://waschnick.de/post/2016/08/social-day-at-die-arche-hellersdorf/</loc>
+    <lastmod>2016-08-14T08:58:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://waschnick.de/post/2016/06/ideas-for-hackathons/</loc>
+    <lastmod>2016-06-15T08:58:18+02:00</lastmod>
+  </url>
+  
+</urlset>

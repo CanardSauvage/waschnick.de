@@ -1,0 +1,17 @@
+languageCode = "en-us"
+title = "waschnick.de"
+author = "Sebastian Waschnick"
+theme = "waschnick"
+
+canonifyurls = true
+contentdir = "content"
+publishdir = "../public"
+builddrafts = false
+baseurl = "http://waschnick.de/"
+
+[indexes]
+   category = "categories"
+   tag = "tags"
+
+[Params]
+    disqus = "waschnick-de"

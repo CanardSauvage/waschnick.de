@@ -1,0 +1,16 @@
+name = "Waschnick"
+license = "Creative Commons Attribution 4.0 International"
+licenselink = "https://creativecommons.org/licenses/by/4.0/"
+description = "The theme for waschnick.de"
+homepage = "https://github.com/CanardSauvage/waschnick.de"
+tags = ["Responsive", "Awesome fonts"]
+features = ["blog"]
+
+[author]
+    name = "Sebastian Waschnick"
+    homepage = "http://waschnick.de"
+
+[original]
+    author =  "daleanthony"
+    homepage = "http://daleanthony.com/"
+    repo = "https://github.com/daleanthony/Uno"

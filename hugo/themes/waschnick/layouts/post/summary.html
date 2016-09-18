@@ -1,0 +1,6 @@
+<li class="article-item">
+    <a class="article-permalink" href="{{ .Permalink }}">
+        <h3 class="article-title">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</h3>
+        <span class="article-publish-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+    </a>
+</li>

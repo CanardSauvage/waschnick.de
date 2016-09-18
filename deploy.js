@@ -9,7 +9,7 @@ var config = {
     host: "ftp3.netclusive.de",
     port: 21,
     localRoot: "./public",
-    remoteRoot: "/html/",
+    remoteRoot: "/html",
     exclude: ['.git', '.idea', 'tmp/*']
 };
 

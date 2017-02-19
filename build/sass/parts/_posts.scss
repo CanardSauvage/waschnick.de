@@ -1,0 +1,30 @@
+.article-index {
+  .article-permalink {
+    -moz-transition: background, 0.25s;
+    -o-transition: background, 0.25s;
+    -webkit-transition: background, 0.25s;
+    transition: background, 0.25s;
+    text-align: center;
+    padding: 2em 0;
+    background: white;
+  }
+
+  .article-permalink:hover {
+    background: #E94127;
+    color: white;
+    text-decoration: none;
+  }
+
+  .article-title {
+    font-size: 2em;
+    max-width: 600px;
+    padding: 0 1em;
+    margin: 0 auto .5em;
+  }
+}
+
+.article-permalink {
+  color: #444;
+  display: block;
+  text-decoration: none;
+}

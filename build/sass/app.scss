@@ -1,0 +1,46 @@
+$primary-color: #E94127;
+$primary-color-blue: #123456;
+
+body {
+  font-family: "Georgia", serif;
+  font-size: 16px;
+  min-width: 300px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+}
+
+ol, ul {
+  list-style: none;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+@import 'parts/font';
+@import 'parts/header';
+@import 'parts/intro';
+@import 'parts/posts';
+
+.site-footer {
+  text-align: center;
+  color: #666;
+  padding: 2em 0;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+.site-footer a {
+  color: #666;
+  text-decoration: none;
+}

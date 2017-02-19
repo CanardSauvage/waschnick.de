@@ -1,0 +1,56 @@
+//.center {
+//  text-align: center;
+//  margin: auto;
+//}
+
+.intro {
+  padding: 3.5em 1em 1.5em;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+
+  .contact-links {
+    margin: 0;
+
+    li {
+      display: inline-block;
+      //margin: 0 0.1em;
+
+      a {
+        margin: 0.5em 0 0 0;
+        padding: 0;
+        border: 0;
+        vertical-align: baseline;
+
+        text-decoration: none;
+        font-size: 2em;
+        color: $primary-color;
+        border-radius: 50%;
+        width: 52px;
+        height: 52px;
+        display: block;
+        transition: background, 0.25s;
+      }
+
+      a:hover {
+        background-color: $primary-color;
+        color: white;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  p {
+    line-height: 1.5;
+    font-style: italic;
+    margin: 0;
+
+    a {
+      color: $primary-color;
+    }
+  }
+
+  .grey-duck-logo {
+    margin: 2em 0;
+  }
+}

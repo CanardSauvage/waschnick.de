@@ -1,7 +1,6 @@
 *.iml
 .idea
 .gradle
-build/
 target
 
 bower_components/

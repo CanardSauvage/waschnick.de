@@ -5,9 +5,11 @@ node_js:
 before_install:
 #  - sudo add-apt-repository
   - sudo apt-get -qq update
-  - sudo apt install snapd
+#  - sudo apt install snapd
 #  - sudo apt-get install -y go
 #  - sudo apt-get install -y hugo
+  - wget https://github.com/spf13/hugo/releases/download/v0.19/hugo_0.19-64bit.deb
+  - sudo dpkg -i hugo_0.19-64bit.deb
 
 install:
   - (cd hugo; hugo)

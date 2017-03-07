@@ -3,9 +3,11 @@ node_js:
   - "4"
 
 before_install:
+#  - sudo add-apt-repository
   - sudo apt-get -qq update
+  - sudo apt install snapd
 #  - sudo apt-get install -y go
-  - sudo apt-get install -y hugo
+#  - sudo apt-get install -y hugo
 
 install:
   - (cd hugo; hugo)

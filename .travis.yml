@@ -19,6 +19,7 @@ branches:
     - master
 
 script:
-    - "(cd hugo; hugo)"
     - "npm install"
+    - "npm run build"
+    - "(cd hugo; hugo)"
     - "npm run deploy"

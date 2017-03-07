@@ -11,14 +11,14 @@ before_install:
   - wget https://github.com/spf13/hugo/releases/download/v0.19/hugo_0.19-64bit.deb
   - sudo dpkg -i hugo_0.19-64bit.deb
 
-install:
-  - (cd hugo; hugo)
+#install:
 
 # whitelist
 branches:
   only:
     - master
-    - dev
 
 script:
-    "npm run deploy"
+    - "(cd hugo; hugo)"
+    - "npm install"
+    - "npm run deploy"

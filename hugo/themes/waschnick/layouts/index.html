@@ -2,14 +2,15 @@
 
 <div class="intro">
     <p>
-        I'm Sebastian Waschnick. I build <a href="">games</a> and write <a href="http://www.axelspringerideas.de/blog/index.php/author/waschnick/">things</a>. I live in Berlin
+        I'm Sebastian Waschnick. I build <a href="{{ .Site.BaseURL }}/game">games</a> and write
+        <a href="http://www.axelspringerideas.de/blog/index.php/author/waschnick/">things</a>. I live in Berlin
         <br>
         and I work to make the world more agile at <a href="http://asideas.de">AS Ideas Engineering</a>.
     </p>
 
     <ul class="contact-links">
         <li><a class="symbol about-me" href="https://about.me/sebastian.waschnick" target="_blank">&#xe001;</a></li>
-        <li><a class="symbol mail" href="">&#xe024;</a></li>
+        <li><a class="symbol mail" href="mailto:barriwaschi@web.de">&#xe024;</a></li>
         <li><a class="symbol facebook" href="https://www.facebook.com/sebastian.waschnick" target="_blank">&#xe027;</a></li>
         <li><a class="symbol instagram" href="https://www.instagram.com/waschnick/" target="_blank">&#xe100;</a></li>
         <li><a class="symbol googleplus" href="https://plus.google.com/u/0/103320058510285912263" target="_blank">&#xe039;</a></li>
@@ -22,6 +23,6 @@
     <p class="center grey-duck-logo"><img src="images/avatar-duck.png"></p>
 </div>
 
-<!--{{ partial "posts.html" .}}-->
+{{ partial "posts.html" .}}
 
 {{ partial "footer.html" .}}

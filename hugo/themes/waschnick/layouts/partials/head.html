@@ -8,12 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <title>waschnick.de · Sebastian Waschnick · programmer · burger lover · techie</title>
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/waschnick.css" />
+    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/waschnick.css"/>
     <!-- Icons -->
     <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">-->
     <link rel="shortcut icon" href="/favicon.ico">
     <!-- RSS -->
-    <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+    <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}"/>
     <!-- Script -->
     <!--<script src="{{ .Site.BaseURL }}/js/jquery.min.js"></script>-->
     <script src="{{ .Site.BaseURL }}/js/main.min.js">
@@ -23,5 +23,5 @@
 <body>
 
 <header>
-    <img src="images/logo2.svg">
+    <a href="{{ .Site.BaseURL }}"><img src="/images/logo2.svg"></a>
 </header>

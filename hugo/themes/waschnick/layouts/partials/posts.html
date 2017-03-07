@@ -1,13 +1,13 @@
 <ul id="posts" class="article-index">
     <div>
         {{ range first 10 .Data.Pages }}
-        {{ if eq .Type "post" }}
-        {{ .Render "summary"}}
-        {{ end }}
+            {{ if eq .Type "blog" }}
+                {{ .Render "summary"}}
+            {{ end }}
         {{ end }}
     </div>
 </ul>
 <h4 class="article-archive__link">
-    <a href="{{ .Site.BaseURL }}/post/">Archive</a>
+    <a href="{{ .Site.BaseURL }}/blog/">Archive</a>
 </h4>
 

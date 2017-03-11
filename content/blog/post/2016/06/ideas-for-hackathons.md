@@ -28,7 +28,7 @@ Wir haben natürlich geschlafen - ich sogar 8h - nur Thomas hat beim Mediahackda
 !(03.png)
 !(04.png)
 !(05.png)
-<img src="06.png" class="small-image">
+<img src="06.png" class="small">
 ![some](07.png)
 
 

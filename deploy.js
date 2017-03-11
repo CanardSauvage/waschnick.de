@@ -4,8 +4,8 @@ var ftpDeploy = new FtpDeploy();
 console.info("### Current branch is: " + process.env.TRAVIS_BRANCH);
 
 var config = {
-    username: "ncf1027",
-    password: "xf00jJNr",
+    username: process.env.FTP_USER,
+    password: process.env.FTP_PASSWORD,
     host: "ftp3.netclusive.de",
     port: 21,
     localRoot: "./public",

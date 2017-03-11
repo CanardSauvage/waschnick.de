@@ -98,8 +98,15 @@
     .content-wrapper__inner {
         .post {
             img {
+                margin: 0 auto;
+                display: block;
                 min-width: 200px;
-                max-width: 980px;
+                width: 90%;
+                max-width: 720px;
+
+                &.small {
+                    width: 50%;
+                }
             }
 
             .post-title {

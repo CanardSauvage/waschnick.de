@@ -10,9 +10,9 @@ module.exports = function makeWebpackConfig() {
     var config = {
         devtool: 'source-map',
         debug: true,
-        entry: './build/app',
+        entry: './themes/waschnick/src/app',
         output: {
-            path: './hugo/themes/waschnick/static',
+            path: './themes/waschnick/static',
             filename: 'js/waschnick.js'
         },
         module: {

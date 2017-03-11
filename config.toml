@@ -5,7 +5,7 @@ theme = "waschnick"
 
 canonifyurls = true
 contentdir = "content"
-publishdir = "../public"
+publishdir = "./public"
 builddrafts = false
 baseurl = "http://waschnick.de/"
 

@@ -1,6 +1,7 @@
 +++
+Title = ""
 Description = ""
-Tags = ["Development", "golang"]
-Categories = ["Development", "GoLang"]
-menu = "main"
+Tags = []
+Genres = []
+menu = "games"
 +++

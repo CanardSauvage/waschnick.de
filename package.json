@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "webpack -- webpack-dev-server --inline --watch && hugo/hugo server -w",
-    "build": "webpack",
+    "build": "webpack && hugo",
     "deploy": "node deploy.js"
   },
   "devDependencies": {

@@ -99,14 +99,16 @@
         .post {
             img {
                 margin: 0 auto;
+                margin-bottom: 16px;
                 display: block;
-                min-width: 200px;
+                min-width: 280px;
                 width: 90%;
                 max-width: 720px;
 
                 &.small {
                     width: 50%;
                 }
+
             }
 
             .post-title {

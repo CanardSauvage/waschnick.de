@@ -7,74 +7,68 @@ Tags = ["Development", "golang"]
 Categories = ["Development", "GoLang"]
 Description = "desc"
 +++
+42 hours at a Hackathon
+Hey! I’m Sebastian, a newly member of Hackerstolz and a huge fan of Hackathons. This is a short story about my last Hackathon. It was not your most typical Hackathon, as it was kind of a corporate one about new ideas some business units, but you still will get the idea how a Hackathon works.
+I joined Hackerstolz to create awesome events as others did for me and to share the great experiences I had. So read about how it feels to be at a Hackathon and maybe join our next Hackathon in Berlin.
+***************
+Monday 5:54 pm
+After a normal workday it all starts: we are arriving at the place to be, the Plug and Play Accelerator and then we go up to the rooftop terrace. We are hanging out with some beers and we meet some PHP developers from idealo and transfermarkt.de. They are really cool, for PHP devs.
+***************
+Monday 6:30 pm
+More or less on time the introductions are starting: What are the rules, how will everything be judged and how should we interpret the motto. There is an introduction of all sponsors and every country which participates: UK, France, Poland und a lot from all over Germany. Compared to other Hackathons there are few women and only 6 designers. Teams can be between two and five people. After that, everyone who has an ideas can pitch it. The people are coming to the front and explain what they want to do. Some ideas are only new features for already existing products. All in all, there are up to a dozen people coming in front and presenting their ideas. We came with six people and decide to split into two teams.
+***************
+Monday 7:34 pm
+I have my third beer and we have a buffet with lasagne. Being on a rooftop terrace is really nice. While eating we meet some guys from two different newspapers and start talking with them. Both want to do something with videos, as “Video is the future”.
+***************
+Monday 8:34 pm
+A bus filled with Polish people arrive, all from one company. The introductions of the teams and the ideas are going into the second round. I’m also going to the front, telling everybody about us, our two teams and that everyone is invited to join us, no matter their profile. Everyone wants a designer or a woman in their team, the running gag of the evening. Actually not really funny.
+***************
+Monday 10:03 pm
+The end of the day, we have some rough ideas and want to start with two teams with four people each tomorrow morning. We also got the two guys from the newspapers to join us. Not exactly sure what we want to do, but something with video.
+***************
+Tuesday 9:31 am
+The next morning, back at the Plug and Play Accelerator, this time on the first floor. Did I bring everything? Second shirt, laptop, charging cable, phone, charging cable, cables, pens, paper. Ok, should be enough. Let’s start with coffee and croissants. At around 10 am everyone from my team is here and we start working on our ideas. They really are shaping, our two business guys from the newspapers are really helpful, they have great visions and it really pays of working with them.
+***************
+Tuesday 10:51 am
+Finally the coding starts , even if I’m really tired. Already. Somehow the excitement before the Hackathon is always bigger, the anxiety about not finishing something. My fear was never justified, but my doubts are always their, each and every time. It doesn’t matter, only results do.
+***************
+Tuesday 11:15 am
+My team consists of Tom, a second developer, who will work on the backend, Martin, our product owner and designer. And Philipp, our business guy form a newspaper. Our other team is currently throwing away their idea and try to find something new.
+***************
+Tuesday 11:30 am
+Our app is live with deployment and project setup, Tom and I are developing really hard. Code, Code, Code and we are deep into the tunnel. The mood in the other team is at an all-time low, one of them wants to leave at 4 pm, as his child is sick and they don’t believe in their concept. They didn’t even start coding yet.
+***************
+Tuesday 2:40 pm
+My tiredness is even improving, I think it is just to much excitement. We already have three working screens: Home, search and details. The throwback of Hackathons on normal working days is showing: Our business guy and our designer/product owner are sucked into their normal work. I feel a little bit forsaken by the rest of my team.
+***************
+Tuesday 3:15 pm
+What will improve my productivity more: ClubMate, coffee or Red Bull? I should start a self-experiment. The morning started with a lot of coffee, currently I’m at my third Red Bull and I’m really in the flow. Let’s stay with Red Bull for now.
+***************
+Tuesday 5:47 pm
+Some C-level managers from the participating companies are visiting the Hackathon and are asking what we are doing and what our ideas are. I have to agree with Jan Böhmermann: “If the neoliberal Silicon Valley wannabes start dressing in hoodies and try to act like nerds, we nerds need to take off our hoodies, shave us and wear suits.”
+***************
+Tuesday 7:01 pm
+Back at the roof-top terrace, now with BBQ. Together with two big screens showing soccer, Poland and Germany are playing at the same time for the European Cup. For a great mood both teams should win their games.
+The guys from Transfermarkt.de are only concentrating on the game, a huge crowd is watching both games in different rooms. I just continue coding through the night.
+***************
+Wednesday 7:58 am
+Back at the location, back to code a little more. The night was really short, I went to bed at midnight and couldn’t sleep. Thank you Red Bull, thank you coffee and thank you ClubMate. I’m not sure if they were more helpful or harmful. A pity the Red Bull is missing today. I think this is because of the last Hackathon here: A friend of mine drank 26 (!) cans of Red Bull on his own. Tom is coming later, getting up early is nothing for a real programmer. We are the first at the location, the whole room is empty.
+***************
+Wednesday 8:23 am
+The others decided that I will be pitching. Fuck.
+***************
+Wednesday 10:00 am
+The end is near, no more bets. Our application is running, live and stable. Yeah! We are moving from the Plug and Play Accelerator to the 19th floor of the Axel Springer tower with an incredible view. There are sandwiches, salat and more stuff to drink. Sadly no beer.
+***************
+Wednesday 11:00 am
+The pitches are starting. Every team gets three minutes to present their ideas, after two minutes you already get a sign. If you are only 10s over the time you will already get muted. There are two teams on the stage at the same time, the beamer is switching after every pitch to the new time and everything is going really fast. With 16 Teams and with 200 people as views this is totally necessary. Everyone present gets a cheat sheet and is able to vote and can only vote for one team.
+***************
+Wednesday 11:37 am
+I didn’t practise my pitch, not even once and only have really rough notes, kind of a plan and I’m not able to listen to any other pitch. I’m to tired and to anxious. Now it starts. Three painless minutes.
+Last but not least, here is my pitch:
 
 
-Hallo Welt,
 
-Hackathons machen enorm viel Spaß und man kann dabei mehr lernen als in mehreren Monaten normaler Arbeit. Wir waren dieses Jahr an zwei Wochenenden bei zwei Hackathons, hatten enorm viel Spaß und haben drei Preise gewonnen. Dazu ist unsere iPool-API hervorragend dokumentiert.
-
-
-
-# Hackathons?!*
-
-Routine killt jede Form von Kreativität. Ein Hackathon ist ein so besonders Ereignis, dass einem zu ganzen neuen Denkweisen bringt und auch wirklich eine langfristige Wirkung hat. Es ist nicht nur, dass man in nur 24h etwas fertiges und benutzbares schafft, dabei neue Wege erkundet, es ist auch die Motivation, die man mitnimmt. Nach einem Hackathon möchte man so viel ausprobieren, es ist wie eine Begeisterung, die ansteckt. Es ist außerdem ein Team-Event: Die Zusammenarbeit mit den anderen hat unglaublich viel Spaß gemacht. Man hat zusammen nicht nur etwas geschaffen, man hat zusammen etwas erlebt. So viele Leute, die man kennengelernt hat, so viele Gespräche und neue Eindrücke, die man in so kurzer Zeit bekommen hat. Ich habe auch den Eindruck, dass sich sehr viele Chancen ergeben haben durch die Gespräche die man hatte. Ich habe viele Leute von AS kennengelernt, z.B. Peter Buhr, der früher bei Ideas gearbeitet hat. Ich habe mit den Leuten von Tealium (mit denen AS ein großes DIP-Projekt macht) mitten in der Nacht live-debugging Sessions ihres Codes gemacht und es waren so viele Leute, dass es schwer fällt, alles zusammenzufassen.
-
-Wir haben natürlich geschlafen - ich sogar 8h - nur Thomas hat beim Mediahackday durchgemacht (schaut euch dazu unbedingt das Video an). Die Veranstaltung begannen jeweils Samstag um 9 Uhr, dann gab es Vorstellungen, Intros, Teamfindung und das eigentliche Hacken ging von Samstag 12 Uhr bis Sonntag 12 Uhr. Danach waren die pitches, 2 bzw. 3 Minuten und gegen 15 Uhr jeweils die Siegerehrungen. Und natürlich gab es permanent Essen, Eis, Süßigkeiten, Kuchen, Mitternachtssnacks – also alles immer super organisiert, man muss nichts mitbringen, die Veranstalter haben sich immer um alles gekümmert.
-
-# food{hacks}
-
-!(01.png)
-!(02.png)
-!(03.png)
-!(04.png)
-!(05.png)
-!(06.png)
-![some](07.png)
-
-
-
-Und wer sind die richtigen Hacker um sie im T3N Artikel als Titelbild zu haben? Korrekt: Wir. http://t3n.de/news/food-hacks-vier-smarte-ideen-693850/
-
-Hier wird Essen gehackt:
-
-(08.jpg)
-
-Beim food{hacks} Hackathon ging es um das Thema Essen. Nichts ist so analog wie Nahrung und Essen und wie der CEO von Hello Fresh sagte: "Mir kann keiner sagen, dass die Branche digitalisiert ist”. Der Hackathon hatten Teilnehmer aus über 20 Ländern, über 20 Teams und einen sehr hohen Anteil an Frauen. Dazu war die Organisation hervorragend, alles war geschmückt, überall hingen individuelle und unterschiedliche Poster und Deko rum. Organisiert wurde alles von Hockerstolz e.V., einem recht jungen Verein aus Mannheim. Begrüßt wurden wir mit einem Goody-Bag mit Schürze, Energy Drink, Kaltgepresstem Öl, einer Power Bank, Kochbuch, Zeitschrift und pro Team mit einer riesigen Süßigkeiten Box. Yeah! Es gab keine Cola, kein Red Bull, sondern eher unbekannte Getränke von Proviant und anderen kleineren Anbietern. Alles ein bisschen alternativ hier.
-
-Die Sponsoren haben dabei für bestimmte Sonderpreise einzelnen Challenges ausgerufen z.B. Hello Fresh mit “finden neue Ideen Rezepte zu entdecken” oder Lidl mit “Mobiles Einkaufen ist nur eine Umsetzung der Desktop-Shops, aber nicht angepasst an mobiles Nutzungsverhalten. Wie kann man mit mobilen Geräten anders einkaufen?”. Unsere Lösung verwendet dabei die Imagga-API zur Bildanalyse und wir haben damit auch die Imagga-Challenge und eine GoPro für unser Team gewonnen ;) Als Preis gab es dazu eine wunderbare Bananen-Skulptur.
-
-Try it out: https://food-hacks-ideas.herokuapp.com/
-
-Beschreibung: http://devpost.com/software/which-add-are-you
-
-Mediahackday
-
-
-
-
-
-
-
-
-
-
-
-Der von Axel Springer organisierte Mediahackday findet immer zwischen den einzelnen Startup-Batches im Plug & Play Accelerator statt. Im Gegensatz zum food{hacks} gab es nur 11 Teams, viele Firmen, nur drei Frauen und der Altersdurchschnitt war deutlich höher. Hier haben viele Teilnehmer den Hackathon zu ernst genommen. Ein leichter Beigeschmack bleibt auch, da man den Source Code nicht offen legen musste und das Gewinner Team (dir direkt hinter uns saßen) den Eindruck erweckte, dass sie mit einer fertigen Lösung gekommen sind und bereits vorher viel daran gearbeitet hatten. Spaß hat es dank unserem tollen Team trotzdem gemacht – und das nicht zu wenig. Es gab tonnenweise Red Bull, Club Mate und Cola.
-
-Der iPool war auch API-Partner, leider hat die API nicht wirklich zum Thema gepasst und keiner hat die API benutzt :( Nachdem ich bei etlichen API-Vorstellungen war und von sehr vielen APIs auch wieder an diesem Wochenende die Doku gelesen haben – der iPool hatte bisher mit die beste Dokumentation gehabt. Echt super! Und nach Julians hervorragendem Vortrag zur API weiß ich endlich auch, was der iPool kann und habe total viel Lust ganz viele Dinge damit umzusetzen!
-
-Try it out: https://which-ad-are-you.herokuapp.com/
-
-Beschreibung: http://devpost.com/software/food-sherlock-x8jlad
-
-Artikel im inside.net: http://insidenet.asv.local/inside_news/in_inside_news_26814154.html
-
-Video mit der Zusammenfassung: https://t.co/RLgD17lynH
-
-Am Ende noch ein Riesen Dank an Martin, Marco, Liang, Thomas und Julian – es war mir eine große Freude!
-
-Viele Grüße
-
-Sebastian
-
-PS: Falls ihr sehen wollt, was die anderen Teams gemacht haben, dann schaut hier und hier.
+***************
+Wednesday 2:23 pm
+Back at my place. What can I say? Happy, but totally wasted. We made the third place and won a Raspberry Pi 3 starter kit. Our other team made the first place, even if they didn’t believe in their idea in the beginning. When is the next hackathon again?!

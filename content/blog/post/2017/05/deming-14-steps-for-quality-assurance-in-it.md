@@ -1,3 +1,13 @@
++++
+date = "2017-03-08T08:58:18+02:00"
+title = "waschnick.de is now build with Hugo"
+
+menu = "main"
+Tags = ["Development"]
+Categories = ["Development"]
+Description = "desc"
+Released = "false"
++++
 Total Quality Management for programmers
 
 Known as the father of Total Quality Management is William Edwards Deming. He summarized his method in 14 steps. His ideas have proven vital in production in both Japan and later in the US. As a big fan of classic production theories I wanted to apply his ideas to programming. Here are his 14 steps, adapted to the modern world of software.

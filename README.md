@@ -9,5 +9,7 @@ https://hackernoon.com/why-my-website-is-better-than-yours-85fc643ccc2f
 * elinks support
 
 
+* http://www.humboldtux.net/sbcb-demo/post/post-01/
+
 # TODO
 [ ] Implement post sharing

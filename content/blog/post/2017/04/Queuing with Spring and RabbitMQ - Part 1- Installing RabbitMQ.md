@@ -1,3 +1,13 @@
++++
+date = "2017-03-08T08:58:18+02:00"
+title = "waschnick.de is now build with Hugo"
+
+menu = "main"
+Tags = ["Development"]
+Categories = ["Development"]
+Description = "desc"
+Released = "false"
++++
 Queuing with Spring and RabbitMQ - Part 1- Installing RabbitMQ
 
 screen-shot-2017-03-06-at-10-26-29

@@ -1,6 +1,16 @@
-# Open Source Development Day
-!axel-springer-open-source-development-day/cover.jpg!
++++
+date = "2017-03-08T08:58:18+02:00"
+title = "Axel Springer Open Source Development Day"
+
+menu = "main"
+Tags = ["Development"]
+Categories = ["Development"]
+Description = "desc"
++++
+![Axel Springer Open Source Development Day @ Axel Sprigner Penthouse](cover.jpeg)
 ## My experience with open source
+
+
 ## Agenda
 - Keynote
 - Speed Introduction

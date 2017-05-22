@@ -9,8 +9,3 @@ features = ["blog"]
 [author]
     name = "Sebastian Waschnick"
     homepage = "http://waschnick.de"
-
-[original]
-    author =  "daleanthony"
-    homepage = "http://daleanthony.com/"
-    repo = "https://github.com/daleanthony/Uno"

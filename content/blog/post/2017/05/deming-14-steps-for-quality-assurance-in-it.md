@@ -1,6 +1,6 @@
 +++
 date = "2017-03-08T08:58:18+02:00"
-title = "waschnick.de is now build with Hugo"
+title = "Total Quality Management for programmers"
 
 menu = "main"
 Tags = ["Development"]

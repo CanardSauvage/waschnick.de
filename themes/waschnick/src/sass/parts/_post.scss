@@ -28,6 +28,47 @@
         font-weight: 600;
     }
 
+    ul, ol {
+        padding-left: 2em;
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+
+    ul ul,
+    ol ul {
+        padding-left: 1em;
+    }
+
+    ol ol,
+    ul ol {
+        list-style-type: lower-roman;
+    }
+
+    ul ul ol,
+    ul ol ol,
+    ol ul ol,
+    ol ol ol {
+        list-style-type: lower-alpha;
+    }
+
+    ol li {
+        list-style: decimal outside;
+    }
+
+    ul li {
+        list-style: disc outside;
+    }
+
+    code {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+        font-size: 12px;
+    }
+
+    pre {
+        margin-top: 0;
+        margin-bottom: 0;
+        font: 12px "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    }
     //hr {
     //    box-sizing: content-box;
     //    height: 0.25em;
@@ -102,8 +143,9 @@
                 margin-bottom: 16px;
                 display: block;
                 min-width: 280px;
-                width: 90%;
+                //width: 90%;
                 max-width: 720px;
+                max-height: 500px;
 
                 &.small {
                     width: 50%;
@@ -115,7 +157,7 @@
 
             }
             .post-date {
-
+                font-size: 1.4rem;
             }
             .post-content {
                 margin-top: 20px;

@@ -1,20 +1,28 @@
-    {{ partial "head.html" . }}
-    <body>
-        <div class="content-wrapper">
-            <div class="content-wrapper__inner">
-                <h1>GAMES</h1>
-                {{ range .Data.Pages.GroupByDate "2006" }}
-                <h2>{{ .Key }}</h2>
-                <ul id="list">
-                    {{range .Pages }}
-                    <li>
-                        <a href="{{ .Permalink }}">{{ .Title }} {{ if .GetParam "draft"}}DRAFT{{end}}</a>
-                        <div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
-                    </li>
-                    {{ end }}
-                </ul>
-                {{ end }}
-            </div>
-        </div>
-    </body>
-</html>
+{{ partial "head.html" . }}
+
+<div class="content-wrapper">
+    <div class="content-wrapper__inner games">
+        <h1>GAMES</h1>
+        <p>Currently I only created games for game jams. Here is my <a href="http://ludumdare.com/compo/author/waschnick/">Ludum Dare authors page.</a></p>
+        {{ range .Data.Pages.GroupByDate "2006" }}
+        <h2>{{ .Key }}</h2>
+        <ul id="list">
+            {{range .Pages }}
+            <li class="game-entry">
+                <div class="left">
+                    <h3>
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        <div class="post-date">{{ .Date.Format "Monday, January 2, 2006" }}</div>
+                    </h3>
+                    <img src="{{ .Permalink }}/cover.jpg"/>
+                    <a class="gamelink" href="{{ .Params.Gamelink }}">Link to Ludum Dare entry</a>
+                </div>
+                <div class="right post-desc">{{ .Description }}</div>
+            </li>
+            {{ end }}
+        </ul>
+        {{ end }}
+    </div>
+</div>
+
+{{ partial "footer.html" . }}

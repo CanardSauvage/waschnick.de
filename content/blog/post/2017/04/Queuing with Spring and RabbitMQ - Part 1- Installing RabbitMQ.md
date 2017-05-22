@@ -1,6 +1,6 @@
 +++
 date = "2017-03-08T08:58:18+02:00"
-title = "waschnick.de is now build with Hugo"
+title = "Queuing with Spring and RabbitMQ - Part 1"
 
 menu = "main"
 Tags = ["Development"]

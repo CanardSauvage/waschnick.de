@@ -5,6 +5,8 @@ Title = "The Situation is Hopeless, But Not Serious: The Pursuit of Unhappiness"
 ISBN = ""
 Source = "Buch von Laura"
 +++
+![Cover](the-situation-is-hopeless-but-not-serious-the-pursuit-of-unhappiness.jpg)
+
 I read this as part of a special issue, containing both this book and another one from Watzlawick: "Anleitung zum Unglücklichsein" and "Vom Schlechten des Guten: oder Hekates Lösungen".
 
 The title is really meant as it is: Watzlawick describes detailed ways for yourself and others to dive into the deepest unhappiness. But what does he want xxx?

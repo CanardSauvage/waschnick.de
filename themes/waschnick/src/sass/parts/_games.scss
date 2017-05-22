@@ -1,0 +1,42 @@
+.content-wrapper {
+    .games {
+        a {
+            color: $primary-color;
+        }
+
+        img {
+            max-width: 256px;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        div.post-date {
+            font-size: 1.4rem;
+        }
+
+        .game-entry {
+            display: flex;
+            flex-wrap: wrap;
+
+            .gamelink {
+                font-size: 1.4rem;
+            }
+
+            .left {
+                max-width: 270px;
+                flex: 0 0 270px;
+                padding-right: 36px;
+                //margin-right: 36px;
+            }
+
+            .right {
+                flex: 1 1 180px;
+                padding: 28px;
+                padding-left: 0px;
+            }
+        }
+
+    }
+}

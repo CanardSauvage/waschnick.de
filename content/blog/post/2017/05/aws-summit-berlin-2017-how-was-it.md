@@ -9,7 +9,7 @@ Description = "desc"
 Released = "true"
 +++
 ![AWS Summit Berlin](aws-header.png)
-
+https://aws.amazon.com/de/summits/berlin/presentations2017/
 As you may know or not my current company Axel Springer Ideas Engineering has a really flat structure. This means that we need and have rules...
 
 erwähnenswertesten Events, das den Themen Digitalisierung, Cloud Adoption und Next Generation Application gewidmet ist

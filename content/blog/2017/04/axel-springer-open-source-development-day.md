@@ -6,6 +6,7 @@ menu = "main"
 Tags = ["Development"]
 Categories = ["Development"]
 Description = "desc"
+Released = "false"
 +++
 ![Axel Springer Open Source Development Day @ Axel Sprigner Penthouse](cover.jpeg)
 ## My experience with open source

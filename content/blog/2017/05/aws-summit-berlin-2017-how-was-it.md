@@ -9,7 +9,7 @@ Description = "desc"
 Released = "true"
 +++
 ![AWS Summit Berlin](aws-header.png)
-https://aws.amazon.com/de/summits/berlin/presentations2017/
+
 As you may know or not my current company Axel Springer Ideas Engineering has a really flat structure. This means that we need and have rules...
 
 erwähnenswertesten Events, das den Themen Digitalisierung, Cloud Adoption und Next Generation Application gewidmet ist
@@ -39,7 +39,7 @@ Here are the three things I took from the conference:
 Zahlreiche Hands-on-Aktivitäten sind für Besucher des AWS Summits den ganzen Tag zugänglich. Bei der „Ask an Architect bar“ können Besucher beispielsweise Experten des AWS Solutions Architect Teams zu AWS-bezogenen Themen befragen. Egal ob es um die Basics oder nutzerindividuelle Anliegen geht: Die AWS-Architects können in persönlichen Einzelgesprächen zielgerichtet helfen. Im Innovation Lab wird die Cloud anhand von User Cases veranschaulicht
 
 # And the talks?
-I'll tell you about 3 good and 3 bad talks. 
+I'll tell you about 3 good and 3 bad talks. You can find [all presentations](https://aws.amazon.com/de/summits/berlin/presentations2017/) here.
 
 ## Architecting and Building your first Deep Learning Network in MXNet
 "You don't have to have a PhD to figure out the math"

@@ -4,4 +4,29 @@
     </p>
 </footer>
 </body>
+
+<script src="{{ .Site.BaseURL }}/js/waschnick.js"></script>
+<script src="//cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/lightgallery/1.3.9/js/lightgallery.min.js"></script>
+<script src="//cdn.jsdelivr.net/lg-thumbnail/1.0.3/lg-thumbnail.min.js"></script>
+<script src="//cdn.jsdelivr.net/jquery.justifiedgallery/3.6.3/js/jquery.justifiedGallery.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/lightgallery/1.3.9/css/lightgallery.min.css"/>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.justifiedgallery/3.6.3/css/justifiedGallery.min.css"/>
+
+
+<script>
+    $(function () {
+        $(".lightgallery").lightGallery({
+            thumbnail: true,
+            animateThumb: true,
+            showThumbByDefault: true
+        });
+        $(".lightgallery").justifiedGallery({
+            margins: 4,
+            rowHeight: 180,
+            justifyThreshold: 0.95
+        });
+    });
+</script>
 </html>

@@ -17,25 +17,39 @@
         }
 
         .game-entry {
-            display: flex;
-            flex-wrap: wrap;
 
-            .gamelink {
-                font-size: 1.4rem;
+            .game--header {
+
             }
 
-            .left {
-                max-width: 270px;
-                flex: 0 0 270px;
-                padding-right: 36px;
-                //margin-right: 36px;
+            .game--body {
+                display: flex;
+                flex-wrap: wrap;
+
+                .left {
+                    max-width: 270px;
+                    flex: 0 0 270px;
+                    padding-right: 36px;
+                    //margin-right: 36px;
+
+                    .gamelink {
+                        display: block;
+                        font-size: 1.4rem;
+                    }
+
+                    .downloadlink {
+                        display: block;
+                        font-size: 1.4rem;
+                    }
+                }
+
+                .right {
+                    flex: 1 1 180px;
+                    padding: 28px;
+                    padding-left: 0px;
+                }
             }
 
-            .right {
-                flex: 1 1 180px;
-                padding: 28px;
-                padding-left: 0px;
-            }
         }
 
     }

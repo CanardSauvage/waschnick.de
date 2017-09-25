@@ -2,6 +2,8 @@
 
 https://hackernoon.com/why-my-website-is-better-than-yours-85fc643ccc2f
 
+# Building
+
 * responsive
 * Internet Explorer 5 on Windows NT support
 * https://validator.w3.org/nu/?doc=http%3A%2F%2Fwaschnick.de%2F
